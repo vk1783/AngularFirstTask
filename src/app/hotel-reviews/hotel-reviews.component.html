@@ -1,0 +1,8 @@
+<div *ngIf="hotel" class="component">
+  <h1>Отзывы об отеле</h1>
+  <div class="card" *ngFor="let review of hotel.reviews">
+    <p>Оценка: {{review.mark}}/5</p>
+    <p>Автор: {{review.name}}</p>
+    <p>Комментарий: {{review.text}}</p>
+  </div>
+</div>

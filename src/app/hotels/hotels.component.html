@@ -1,0 +1,12 @@
+<div class="component">
+  <h1>Список отелей</h1>
+  <div class="card"
+       *ngFor="let hotel of hotels"
+       [ngStyle]="{background: choosedHotel == hotel ? '#ccc' : 'white'}"
+       (click)="clickHotel(hotel)">
+    <p>Название: {{hotel.title}}</p>
+    <p>Адрес: {{hotel.address}}</p>
+    <img src="">
+    <p>Рейтинг: {{getAvgMark(hotel)}}</p>
+  </div>
+</div>
