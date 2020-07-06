@@ -3,6 +3,7 @@
   "address": "Москва, Тверская, 15",
   "phone": "8-036-254-77-63",
   "description": "Замечательный отель в центре Москвы!",
+  "image": "assets/hotel_1.jpg",
   "reviews":
   [{
     "mark": 5,
@@ -18,6 +19,7 @@
     "address": "Белгород, Щорса, 25",
     "phone": "8-234-456-56-98",
     "description": "Замечательный отель в центре Белгорода!",
+    "image": "assets/hotel_2.jpg",
     "reviews":
     [{
       "mark": 1,
@@ -33,6 +35,7 @@
   "address": "Суздаль, Новомайская, 33",
   "phone": "8-434-072-16-24",
   "description": "Замечательный отель в центре Суздаля!",
+  "image": "assets/hotel_3.jpg",
   "reviews":
   [{
     "mark": 4,

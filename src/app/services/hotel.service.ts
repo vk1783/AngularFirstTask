@@ -13,6 +13,7 @@ export interface Hotel {
   address: string;
   phone: string;
   description: string;
+  image: string;
   reviews: Review[];
 }
 

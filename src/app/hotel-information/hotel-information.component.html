@@ -1,10 +1,10 @@
 <div *ngIf="hotel" class="component">
   <h1>Карточка отеля</h1>
   <div class="card">
+    <img src="{{hotel.image}}" width="40%" style="float:left">
     <p>Название: {{hotel.title}}</p>
     <p>Адрес: {{hotel.address}}</p>
     <p>Телефон: {{hotel.phone}}</p>
-    <img src="">
     <p>Описание: {{hotel.description}}</p>
   </div>
 </div>
